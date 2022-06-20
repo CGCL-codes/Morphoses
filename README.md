@@ -197,7 +197,7 @@ There are a few optional flags that can affect the behaviour and determine the v
     <img src="images/PR_StackOverflow_epsilon.png" width=400 alt="Morphoses-Eva2"/>
 </p>
 <p float="left">
-    <object width = 199 /> (1) <object width = 199 /> (2)
+                         (1)           (2)
 </p>
 <p float="left">
     <img src="images/PR_StackOverflow_nEdges.png" width=400 alt="Morphoses-Eva3"/>
