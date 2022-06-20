@@ -191,12 +191,17 @@ There are a few optional flags that can affect the behaviour and determine the v
 - `-simple`: Optional flag used to ensure that the input graph remains a simple graph (ie. no duplicate edges). The input graph is checked to remove all duplicate edges. Duplicate edges are not allowed within a batch and edge additions are checked to ensure that the edge to be added does not yet exist within the graph.
 - `-debug`: Optional flag to print the edges that were determined to be invalid.
 
+## 5. Evaluation
+<img src="images/PR_LKML_epsilon.png" width=250 alt="Morphoses-Eva1"/><br/>
+<img src="images/PR_StackOverflow_epsilon.png" width=250 alt="Morphoses-Eva2"/><br/>
+<img src="images/PR_StackOverflow_nEdges.png" width=250 alt="Morphoses-Eva3"/><br/>
+<img src="images/SSSP_StackOverflow_nEdges.png" width=250 alt="Morphoses-Eva4"/><br/>
 
-## 5. Acknowledgements
+## 6. Acknowledgements
 Some utility functions from [Ligra](https://github.com/jshun/ligra), [GraphBolt](https://github.com/pdclab/graphbolt) and [Problem Based Benchmark Suite](http://www.cs.cmu.edu/~pbbs/index.html) are used as part of this project. We are thankful to them for releasing their source code.
 
 
-## 6.Authors and Copyright
+## 7.Authors and Copyright
 Morphoses is developed in National Engineering Research Center for Big Data Technology and System, Cluster and Grid Computing Lab, Services Computing Technology and System Lab, School of Computer Science and Technology, Huazhong University of Science and Technology, Wuhan, China.
 
 Copyright (C) 2022, [STCS & CGCL](http://grid.hust.edu.cn/) and [Huazhong University of Science and Technology](https://www.hust.edu.cn/).
