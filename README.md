@@ -1,13 +1,13 @@
 
 # Morphoses: A General Graph Stream Fine-grained Tracking System at Scale
 
-Morphoses is an efficient graph stream real-time tracking system. She provides quickly reactions to the real-time graph changes of the impact upon different iterative graph algorithms, and provides fine-grained tracking security.[[Read more]](Morphoses_20220620.pdf)
+Morphoses is an efficient graph stream real-time tracking system. She provides quickly reactions to the real-time graph changes of the impact upon different iterative graph algorithms, and provides fine-grained tracking security.[[Read more]](Morphoses.pdf)
 
 ## 1. Introduction
 
 Morphoses is a general graph stream tracking system developed for scalable fine-grained graph stream tracking. Morphoses performs incremental processing based on iterative process retention. Unlike previous methods, it proposes *Vertex State Set* to implement full incremental processing of data structures and iterative algorithms. The vertex state set avoids the complete materialization of the iterative results of the algorithm and unnecessary vertex state scanning. Morphoses can flexibly reuse the history of the previous iteration or the current iteration in the previous frame in both directions. The results are retained to narrow the scope of incremental recalculation. At the same time, Morphoses organizes multiple consecutive graph stream transactions into micro-batches for processing, and uses 
 timing multi-version graph storage to parallel computations within micro-batches. Based on this, we propose a divide-and-conquer method to quickly track key transactions that cause results to change.
-
+[[Read more]](Morphoses.pdf)
 ##  2. Getting Started
 
 ### 2.1 Project Organization
