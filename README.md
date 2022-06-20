@@ -192,10 +192,6 @@ There are a few optional flags that can affect the behaviour and determine the v
 - `-debug`: Optional flag to print the edges that were determined to be invalid.
 
 ## 5. Evaluation
-<p float="left">
-    <img src="images/PR_LKML_epsilon.png" width=400 alt="Morphoses-Eva1"/>
-    <img src="images/PR_StackOverflow_epsilon.png" width=400 alt="Morphoses-Eva2"/>
-</p>
 <table>
   <tr>
     <td>(1)</td>
