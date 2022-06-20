@@ -195,14 +195,7 @@ There are a few optional flags that can affect the behaviour and determine the v
 <p float="left">
     <img src="images/PR_LKML_epsilon.png" width=400 alt="Morphoses-Eva1"/>
     <img src="images/PR_StackOverflow_epsilon.png" width=400 alt="Morphoses-Eva2"/>
-    
-    <div style="color:black; border-bottom: 1px solid #d9d9d9;
-    display: inline-block;
-    color: #999;
-    padding: 2px;">
       在这里插入图片注释
-  	</div>
-    
 </p>
 
 <p float="left">
