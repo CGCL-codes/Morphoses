@@ -192,6 +192,8 @@ There are a few optional flags that can affect the behaviour and determine the v
 - `-debug`: Optional flag to print the edges that were determined to be invalid.
 
 ## 5. Evaluation
+Here, we present some evaluation results using two public datasets ([LKML](http://konect.cc/networks/lkml-reply/) & [StackOverflow](http://konect.cc/networks/sx-stackoverflow/)). [LKML](http://konect.cc/networks/lkml-reply/) is a small dataset with 1,096,440 edges and 63,399 vertices, our initial graph has 500,000 edges. While [StackOverflow](http://konect.cc/networks/sx-stackoverflow/) has a larger scale, the entire dataset has 63,497,050 edges and 2,601,977 vertices, and our initial graph is set to 50,000,000 edges.
+
 <table>
   <tr>
     <td>(1)</td>
@@ -210,8 +212,6 @@ There are a few optional flags that can affect the behaviour and determine the v
     <td><img src="images/SSSP_StackOverflow_nEdges.png" width=400 alt="Morphoses-Eva4"></td>
   </tr>
  </table>
-
-Here, we present some evaluation results using two public datasets ([LKML](http://konect.cc/networks/lkml-reply/) & [StackOverflow](http://konect.cc/networks/sx-stackoverflow/)). [LKML](http://konect.cc/networks/lkml-reply/) is a small dataset with 1,096,440 edges and 63,399 vertices, our initial graph has 500,000 edges. While [StackOverflow](http://konect.cc/networks/sx-stackoverflow/) has a larger scale, the entire dataset has 63,497,050 edges and 2,601,977 vertices, and our initial graph is set to 50,000,000 edges.
 
 **PageRank algorithm.** For a particular graph, the efficiency of PageRank algorithm depends heavily on the setting of the convergence parameter `ε`. After the same change in the graph, the more precise convergence parameters, the more difficult it is to recompute all PageRank values. Figure 1 and Figure 2 present the results of such an experiment. In graph streams of [LKML](http://konect.cc/networks/lkml-reply/) and [StackOverflow](http://konect.cc/networks/sx-stackoverflow/), Morphoses achieves an improvement over other state-of-the-art works regardless of whether the value of `ε` is 0.001 or as low as 0.000 001. It should be pointed out that these tests are all performed in a single-thread (`-nWorkers` is 1) setting. For [StackOverflow](http://konect.cc/networks/sx-stackoverflow/), when `ε`=0.001, Morphoses can complete the calculation of one frame in at most 0.01s, which is equivalent to a throughput of 100 transactions per second.
 
