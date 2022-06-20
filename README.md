@@ -193,10 +193,10 @@ There are a few optional flags that can affect the behaviour and determine the v
 
 ## 5. Evaluation
 <p float="left">
-    <img src="images/PR_LKML_epsilon.png" width=200 alt="Morphoses-Eva1"/>
-    <img src="images/PR_StackOverflow_epsilon.png" width=200 alt="Morphoses-Eva2"/>
-    <img src="images/PR_StackOverflow_nEdges.png" width=200 alt="Morphoses-Eva3"/>
-    <img src="images/SSSP_StackOverflow_nEdges.png" width=200 alt="Morphoses-Eva4"/>
+    <img src="images/PR_LKML_epsilon.png" width=250 alt="Morphoses-Eva1"/>
+    <img src="images/PR_StackOverflow_epsilon.png" width=250 alt="Morphoses-Eva2"/>
+    <img src="images/PR_StackOverflow_nEdges.png" width=250 alt="Morphoses-Eva3"/>
+    <img src="images/SSSP_StackOverflow_nEdges.png" width=250 alt="Morphoses-Eva4"/>
 </p>
 
 ## 6. Acknowledgements
