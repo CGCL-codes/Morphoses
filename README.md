@@ -192,10 +192,12 @@ There are a few optional flags that can affect the behaviour and determine the v
 - `-debug`: Optional flag to print the edges that were determined to be invalid.
 
 ## 5. Evaluation
-<img src="images/PR_LKML_epsilon.png" width=250 alt="Morphoses-Eva1"/><br/>
-<img src="images/PR_StackOverflow_epsilon.png" width=250 alt="Morphoses-Eva2"/><br/>
-<img src="images/PR_StackOverflow_nEdges.png" width=250 alt="Morphoses-Eva3"/><br/>
-<img src="images/SSSP_StackOverflow_nEdges.png" width=250 alt="Morphoses-Eva4"/><br/>
+<p float="left">
+    <img src="images/PR_LKML_epsilon.png" width=200 alt="Morphoses-Eva1"/><br/>
+    <img src="images/PR_StackOverflow_epsilon.png" width=200 alt="Morphoses-Eva2"/><br/>
+    <img src="images/PR_StackOverflow_nEdges.png" width=200 alt="Morphoses-Eva3"/><br/>
+    <img src="images/SSSP_StackOverflow_nEdges.png" width=200 alt="Morphoses-Eva4"/><br/>
+</p>
 
 ## 6. Acknowledgements
 Some utility functions from [Ligra](https://github.com/jshun/ligra), [GraphBolt](https://github.com/pdclab/graphbolt) and [Problem Based Benchmark Suite](http://www.cs.cmu.edu/~pbbs/index.html) are used as part of this project. We are thankful to them for releasing their source code.
