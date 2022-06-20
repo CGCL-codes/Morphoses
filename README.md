@@ -202,15 +202,18 @@ There are a few optional flags that can affect the behaviour and determine the v
      <td>(2)</td>
   </tr>
   <tr>
-    <td><img src="images/PR_LKML_epsilon.png" width=400 ></td>
-    <td><img src="images/PR_StackOverflow_epsilon.png" width=400></td>
+    <td><img src="images/PR_LKML_epsilon.png" width=400 alt="Morphoses-Eva1"></td>
+    <td><img src="images/PR_StackOverflow_epsilon.png" width=400 alt="Morphoses-Eva2"></td>
+  </tr>
+  <tr>
+     <td>(3)</td>
+     <td>(4)</td>
+  </tr>
+  <tr>
+    <td><img src="images/PR_StackOverflow_nEdges.png" width=400 alt="Morphoses-Eva3"></td>
+    <td><img src="images/SSSP_StackOverflow_nEdges.png" width=400 alt="Morphoses-Eva4"></td>
   </tr>
  </table>
- 
-<p float="left">
-    <img src="images/PR_StackOverflow_nEdges.png" width=400 alt="Morphoses-Eva3"/>
-    <img src="images/SSSP_StackOverflow_nEdges.png" width=400 alt="Morphoses-Eva4"/>
-</p>
 
 Here, we present some evaluation results using two public datasets ([LKML](http://konect.cc/networks/lkml-reply/) & [StackOverflow](http://konect.cc/networks/sx-stackoverflow/)). [LKML](http://konect.cc/networks/lkml-reply/) is a small dataset with 1,096,440 edges and 63,399 vertices, our initial graph has 500,000 edges. While [StackOverflow](http://konect.cc/networks/sx-stackoverflow/) has a larger scale, the entire dataset has 63,497,050 edges and 2,601,977 vertices, and our initial graph is set to 50,000,000 edges.
 
